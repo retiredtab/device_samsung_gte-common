@@ -30,7 +30,7 @@ LOCAL_PATH := device/samsung/gte-common
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 # Camera
-PRODUCT_PACKAGES += Camera2
+# PRODUCT_PACKAGES += Camera2
 
 # Media (camera) configuration files
 PRODUCT_COPY_FILES += \
