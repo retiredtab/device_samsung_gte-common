@@ -32,10 +32,6 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 # Camera
 PRODUCT_PACKAGES += Camera2
 
-# Ramdisk
-PRODUCT_PACKAGES += \
-	init.target.rc
-
 # Media (camera) configuration files
 PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/configs/media/media_profiles_V1_0.xml:$(TARGET_COPY_OUT_VENDOR)/etc/media_profiles_V1_0.xml
